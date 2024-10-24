@@ -95,7 +95,7 @@ func init() {
 	proto.RegisterType((*Record)(nil), "record.pb.Record")
 }
 
-func init() { proto.RegisterFile("record.proto", fileDescriptor_bf94fd919e302a1d) }
+func init() { proto.RegisterFile("go_libp2p_record.proto", fileDescriptor_bf94fd919e302a1d) }
 
 var fileDescriptor_bf94fd919e302a1d = []byte{
 	// 125 bytes of a gzipped FileDescriptorProto
